@@ -1,5 +1,5 @@
 [
-{"__comment__": "251019 v1 58 pairs + v2 105 pairs + v3 236 pairs + v4 270 pairs + v5 117 pairs + v6 278 pairs + v7 97 pairs",
+{"__comment__": "251019 v1 58 pairs + v2 105 pairs + v3 236 pairs + v4 270 pairs + v5 117 pairs + v6 278 pairs + v7 97 pairs + v8 77 pairs",
 "instruction": "",
 "input": "",
 "output": ""
@@ -5805,6 +5805,391 @@
     "instruction": "Can you explain how GPT-4 reversed an inverse scaling trend in Hindsight Neglect?",
     "input": "",
     "output": "Earlier models did worse on the Hindsight Neglect task as they grew larger, but GPT-4 bucked that trend. It managed to perform better on that task (essentially solving it), whereas smaller models and even GPT-3.5 saw performance drops as scale increased."
+  },
+  {
+    "instruction": "Which open-source model was considered on par with GPT-4 in performance by 2025?",
+    "input": "",
+    "output": "Meta’s LLaMA-3 70B was regarded as reaching performance comparable to GPT-4."
+  },
+  {
+    "instruction": "Under what license was the Mistral 7B model released?",
+    "input": "",
+    "output": "Mistral 7B was released under the Apache 2.0 license."
+  },
+  {
+    "instruction": "What does the sliding window attention mechanism allow Mistral 7B to do?",
+    "input": "",
+    "output": "It enables Mistral 7B to handle very long sequences effectively while reducing inference cost."
+  },
+  {
+    "instruction": "What is the purpose of Grouped-Query Attention (GQA) in Mistral 7B?",
+    "input": "",
+    "output": "GQA is used to significantly speed up inference and lower memory requirements in Mistral 7B."
+  },
+  {
+    "instruction": "Which models did the Mixtral 8×7B model outperform on most benchmarks?",
+    "input": "",
+    "output": "Mixtral 8×7B outperformed LLaMA 2 (70B) and even GPT-3.5 on most benchmarks."
+  },
+  {
+    "instruction": "Approximately how many tokens were used to train the LLaMA-65B model?",
+    "input": "",
+    "output": "On the order of 1.4 trillion tokens."
+  },
+  {
+    "instruction": "Give two examples of open-source large language models released to rival closed models.",
+    "input": "",
+    "output": "For example, the BLOOM 176B model and Meta’s OPT-175B were open releases intended to compete with closed models."
+  },
+  {
+    "instruction": "Summarize the passage below.",
+    "input": "Recent work has demonstrated substantial gains on many NLP tasks by pre-training on a large corpus of text followed by fine-tuning on a specific task. Humans can perform new language tasks from only a few examples or simple instructions – something current NLP systems largely struggle with. Here we show that scaling up language models greatly improves task-agnostic few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches.",
+    "output": "Scaling up language models dramatically improves their few-shot learning abilities, often allowing them to approach state-of-the-art performance on new tasks without task-specific fine-tuning."
+  },
+  {
+    "instruction": "Which model was the first to achieve over 90% on the MMLU exam benchmark?",
+    "input": "",
+    "output": "Google’s Gemini Ultra was the first model to score above 90% on MMLU."
+  },
+  {
+    "instruction": "How did AlphaCode 2 perform in competitive programming challenges?",
+    "input": "",
+    "output": "AlphaCode 2 (powered by Gemini) reached roughly the top 15% of entrants on Codeforces programming competitions."
+  },
+  {
+    "instruction": "What accuracy did GPT-3 achieve on the LAMBADA story completion task in a few-shot setting?",
+    "input": "",
+    "output": "GPT-3 reached about 86.4% accuracy on LAMBADA in the few-shot setting."
+  },
+  {
+    "instruction": "How well did GPT-3 do on the StoryCloze task with few-shot prompting?",
+    "input": "",
+    "output": "It achieved around 87–88% accuracy on the StoryCloze test when using a few-shot prompt."
+  },
+  {
+    "instruction": "What was GPT-3’s accuracy on TriviaQA in the few-shot setting, and how did it compare to a fine-tuned T5 model?",
+    "input": "",
+    "output": "GPT-3 scored about 71.2% on TriviaQA in a few-shot setup, outperforming a fine-tuned T5-11B by roughly 14 percentage points."
+  },
+  {
+    "instruction": "On the WebQuestions benchmark, what was GPT-3’s few-shot result and how did it compare to a fine-tuned model?",
+    "input": "",
+    "output": "GPT-3 achieved 41.5% accuracy in a few-shot setting on WebQuestions, which surpassed the fine-tuned T5-11B baseline (37.4%)."
+  },
+  {
+    "instruction": "What accuracy did GPT-3 obtain on the Winograd benchmark in few-shot evaluation?",
+    "input": "",
+    "output": "GPT-3 attained roughly 88–89% accuracy on the Winograd test in a few-shot scenario."
+  },
+  {
+    "instruction": "How did GPT-3 perform on the PIQA commonsense reasoning task in few-shot mode?",
+    "input": "",
+    "output": "In the few-shot setting, GPT-3 scored about 82.8% on PIQA, exceeding the prior state-of-the-art (around 79.4%)."
+  },
+  {
+    "instruction": "What score did GPT-4 achieve on the LSAT, and what percentile does that correspond to?",
+    "input": "",
+    "output": "GPT-4 obtained a score of 163 on the LSAT, which is roughly in the 88th percentile of test takers."
+  },
+  {
+    "instruction": "Out of 58 common tasks, on how many did PaLM 540B set a new few-shot state-of-the-art?",
+    "input": "",
+    "output": "PaLM 540B achieved state-of-the-art results on 44 of 58 tasks in the few-shot setting."
+  },
+  {
+    "instruction": "How did GLM-130B’s performance on the LAMBADA language task compare to GPT-3’s?",
+    "input": "",
+    "output": "GLM-130B outperformed GPT-3 175B by about 5% on the LAMBADA benchmark (in zero-shot tests)."
+  },
+  {
+    "instruction": "On Chinese language benchmarks, how did GLM-130B compare to the 260B-parameter ERNIE Titan model?",
+    "input": "",
+    "output": "GLM-130B significantly outperformed ERNIE Titan 3.0 (260B) on Chinese tasks, e.g., by over 24% on zero-shot CLUE benchmark evaluations."
+  },
+  {
+    "instruction": "Summarize the key points of the passage below.",
+    "input": "GPT-4 Technical Report – We report the development of GPT-4, a large-scale multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits impressive performance on a variety of benchmarks and exams, often outscores the vast majority of human test takers.",
+    "output": "GPT-4 is a very large multimodal model (accepting image and text input) that, despite not matching humans on every task, performs extremely well on many benchmarks and exams, even surpassing most human test-taker scores."
+  },
+  {
+    "instruction": "Summarize what the Gemini model family is.",
+    "input": "The Gemini family consists of Ultra, Pro, and Nano sizes, suitable for applications ranging from complex reasoning tasks to on-device memory-constrained use-cases. Evaluation on a broad range of benchmarks shows that our most-capable Gemini model exhibits remarkable capabilities across image, audio, video, and text understanding.",
+    "output": "Gemini is a new family of multimodal models (Ultra, Pro, and Nano variants) developed by Google that achieve cutting-edge performance across multiple domains (text, images, audio, video), with different model sizes targeting different use cases."
+  },
+  {
+    "instruction": "Summarize the main achievement of the Mistral 7B model as described.",
+    "input": "Mistral 7B outperforms the best open 13B model (Llama 2) across all evaluated benchmarks, and the best released 34B model (Llama 1) in reasoning, mathematics, and code generation. Our model leverages grouped-query attention (GQA) for faster inference, coupled with sliding window attention (SWA) to effectively handle sequences of arbitrary length with a reduced inference cost.",
+    "output": "Mistral 7B is a 7-billion-parameter model that outperforms much larger open models (beating a 13B and even a 34B model on benchmarks) by using efficiency innovations like grouped-query attention and sliding window attention."
+  },
+  {
+    "instruction": "Summarize the results achieved by the Gemini Ultra model.",
+    "input": "Our most capable model, Gemini Ultra, achieves new state-of-the-art results in 30 of 32 benchmarks we report on, including 10 of 12 popular text and reasoning benchmarks, 9 of 9 image understanding benchmarks, 6 of 6 video understanding benchmarks, and 5 of 5 speech recognition and speech translation benchmarks. Gemini Ultra is the first model to achieve human-expert performance on MMLU with a score above 90%.",
+    "output": "Gemini Ultra delivered state-of-the-art performance on virtually all evaluated benchmarks (30 out of 32), spanning text, image, video, and speech tasks. Notably, it became the first model to exceed 90% (human expert level) on the MMLU exam benchmark."
+  },
+  {
+    "instruction": "Summarize the content of the GPT-4 technical report excerpt provided.",
+    "input": "To test its capabilities in such scenarios, GPT-4 was evaluated on a variety of exams originally designed for humans. In these evaluations it performs quite well and often outscores the vast majority of human test takers. For example, on a simulated bar exam, GPT-4 achieves a score that falls in the top 10% of test takers. This contrasts with GPT-3.5, which scores in the bottom 10%.",
+    "output": "GPT-4 was tested on many human exams and performed very strongly, often better than most human examinees. For instance, on the bar exam GPT-4’s score was around the top 10% of test takers, whereas GPT-3.5’s score was only about the bottom 10%."
+  },
+  {
+    "instruction": "Which benchmark dataset did GPT-4 not outperform prior fine-tuned systems on?",
+    "input": "",
+    "output": "GPT-4 matched or beat state-of-the-art models on all tested datasets except for the DROP benchmark."
+  },
+  {
+    "instruction": "Which category in BIG-bench was PaLM 540B not superior to Chinchilla-70B?",
+    "input": "",
+    "output": "PaLM 540B lagged behind Chinchilla only in the \"Other tasks\" category (it outperformed Chinchilla in all other categories)."
+  },
+  {
+    "instruction": "Which smaller model was reported to outperform GPT-3 (175B) on some benchmark categories?",
+    "input": "",
+    "output": "Google’s PaLM 62B model was noted to outscore GPT-3 175B on certain evaluation categories."
+  },
+  {
+    "instruction": "Which 540B model outperformed the 530B Megatron-Turing NLG on every benchmark in a head-to-head comparison?",
+    "input": "",
+    "output": "PaLM 540B demonstrated stronger performance than the MT-NLG 530B model across all benchmarks."
+  },
+  {
+    "instruction": "Did GPT-3 outperform a fine-tuned BERT-large model on SuperGLUE tasks?",
+    "input": "",
+    "output": "Yes. GPT-3 outperformed a fine-tuned BERT-large on half of the SuperGLUE tasks (4 out of 8), and on two tasks GPT-3 is close to the state-of-the-art held by a fine-tuned 11B model."
+  },
+  {
+    "instruction": "Who developed the GPT-3 language model?",
+    "input": "",
+    "output": "GPT-3 was developed by OpenAI."
+  },
+  {
+    "instruction": "Which organization created the GPT-4 model?",
+    "input": "",
+    "output": "GPT-4 was created by OpenAI."
+  },
+  {
+    "instruction": "LLaMA (the Large Language Model Meta AI) was introduced by which company?",
+    "input": "",
+    "output": "LLaMA was introduced by Meta (Facebook’s AI research division)."
+  },
+  {
+    "instruction": "Who released the LLaMA-2 model series?",
+    "input": "",
+    "output": "LLaMA 2 was released by Meta."
+  },
+  {
+    "instruction": "PaLM (Pathways Language Model) was developed by which company?",
+    "input": "",
+    "output": "PaLM was developed by Google."
+  },
+  {
+    "instruction": "Which company announced the PaLM 2 model?",
+    "input": "",
+    "output": "PaLM 2 was introduced by Google."
+  },
+  {
+    "instruction": "Who released the Mistral 7B model?",
+    "input": "",
+    "output": "Mistral 7B was released by the startup Mistral AI in 2023."
+  },
+  {
+    "instruction": "The Gemini model family was developed at which company?",
+    "input": "",
+    "output": "The Gemini models were developed by Google."
+  },
+  {
+    "instruction": "Which institution is behind the GLM-130B bilingual model?",
+    "input": "",
+    "output": "GLM-130B was created by researchers at Tsinghua University."
+  },
+  {
+    "instruction": "Which company released the Nemotron-4 340B model family?",
+    "input": "",
+    "output": "Nemotron-4 was released by NVIDIA."
+  },
+  {
+    "instruction": "What score did GPT-4 attain on the AP Biology exam?",
+    "input": "GPT-4 attains the highest possible score on AP Biology (5/5)",
+    "output": "It got a 5 out of 5, the highest possible score."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP Calculus BC exam compared to GPT-3.5?",
+    "input": "AP Calculus BC 4 (43rd - 59th) ... 1 (0th - 7th)",
+    "output": "GPT-4 scored a 4 on AP Calculus BC (around mid-50th percentile), whereas GPT-3.5 only scored a 1 (essentially near the bottom among test-takers)."
+  },
+  {
+    "instruction": "Based on the report excerpt, which model scored in the top 10% on a simulated bar exam?",
+    "input": "For example, on a simulated bar exam, GPT-4 achieves a score that falls in the top 10% of test takers. This contrasts with GPT-3.5, which scores in the bottom 10%.",
+    "output": "GPT-4 scored around the top 10% on the bar exam (whereas GPT-3.5 was in the bottom 10%)."
+  },
+  {
+    "instruction": "Refer to the data provided. What score did GPT-4 achieve on the LSAT and what percentile does that correspond to?",
+    "input": "LSAT 163 (~88th) 161 (~83rd) 149 (~40th)",
+    "output": "GPT-4 scored 163 on the LSAT, which is around the 88th percentile."
+  },
+  {
+    "instruction": "From the table, what score did GPT-4 receive on the SAT Evidence-Based Reading & Writing section, and how did it compare to GPT-3.5’s performance?",
+    "input": "SAT Evidence-Based Reading & Writing 710 / 800 (~93rd) ... 670 / 800 (~87th)",
+    "output": "GPT-4 scored 710 out of 800 (approximately the 93rd percentile) on SAT Reading & Writing, whereas GPT-3.5 scored 670 (around the 87th percentile)."
+  },
+  {
+    "instruction": "According to the data, what was GPT-4’s score on the SAT Math section and how did it compare to GPT-3.5’s result?",
+    "input": "SAT Math 700 / 800 (~89th) ... 590 / 800 (~70th)",
+    "output": "GPT-4 scored 700 out of 800 in SAT Math (around the 89th percentile), whereas GPT-3.5 scored 590 (around the 70th percentile)."
+  },
+  {
+    "instruction": "What was GPT-4’s score on the GRE Quantitative section, and how did it differ from GPT-3.5’s score?",
+    "input": "GRE Quantitative 163 / 170 (~80th) ... 147 / 170 (~25th)",
+    "output": "GPT-4 scored 163 out of 170 on GRE Quant (around the 80th percentile), whereas GPT-3.5 scored 147 (around the 25th percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP Chemistry exam, and how did it compare to GPT-3.5?",
+    "input": "AP Chemistry 4 (71st - 88th) ... 2 (22nd - 46th)",
+    "output": "GPT-4 achieved a 4 on AP Chemistry (~71–88th percentile), whereas GPT-3.5 got a 2 (~22–46th percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP English Language and Composition exam compared to GPT-3.5?",
+    "input": "AP English Language and Composition 2 (14th - 44th) ... 2 (14th - 44th)",
+    "output": "Both GPT-4 and GPT-3.5 scored 2 on the AP English Language exam (around the 14th–44th percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP English Literature and Composition exam compared to GPT-3.5?",
+    "input": "AP English Literature and Composition 2 (8th - 22nd) ... 2 (8th - 22nd)",
+    "output": "GPT-4 and GPT-3.5 each scored 2 on AP English Literature (~8th–22nd percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP Environmental Science exam, and how did that compare to GPT-3.5?",
+    "input": "AP Environmental Science 5 (91st - 100th) ... 5 (91st - 100th)",
+    "output": "GPT-4 scored a 5 on AP Environmental Science (around the 91st–100th percentile), and GPT-3.5 also got a 5 (similarly high percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP Macroeconomics exam compared to GPT-3.5?",
+    "input": "AP Macroeconomics 5 (84th - 100th) ... 2 (33rd - 48th)",
+    "output": "GPT-4 achieved a 5 on AP Macroeconomics (~84–100th percentile), whereas GPT-3.5 got a 2 (~33–48th percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP Microeconomics exam compared to GPT-3.5?",
+    "input": "AP Microeconomics 5 (82nd - 100th) ... 4 (60th - 82nd)",
+    "output": "GPT-4 scored a 5 on AP Microeconomics (~82–100th percentile), compared to GPT-3.5’s 4 (~60–82nd percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP Physics 2 exam versus GPT-3.5?",
+    "input": "AP Physics 2 4 (66th - 84th) ... 3 (30th - 66th)",
+    "output": "GPT-4 earned a 4 on AP Physics 2 (~66–84th percentile), whereas GPT-3.5 got a 3 (~30–66th percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP Psychology exam compared to GPT-3.5?",
+    "input": "AP Psychology 5 (83rd - 100th) ... 5 (83rd - 100th)",
+    "output": "Both GPT-4 and GPT-3.5 received a top score of 5 on AP Psychology (around the 83rd–100th percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP Statistics exam, and how did GPT-3.5 do in comparison?",
+    "input": "AP Statistics 5 (85th - 100th) ... 3 (40th - 63rd)",
+    "output": "GPT-4 got a 5 on AP Statistics (~85–100th percentile), while GPT-3.5 got a 3 (~40–63rd percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP US Government exam versus GPT-3.5?",
+    "input": "AP US Government 5 (88th - 100th) ... 4 (77th - 88th)",
+    "output": "GPT-4 scored 5 on AP U.S. Government (~88–100th percentile), and GPT-3.5 scored 4 (~77–88th percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP US History exam versus GPT-3.5?",
+    "input": "AP US History 5 (89th - 100th) ... 4 (74th - 89th)",
+    "output": "GPT-4 received a 5 on AP U.S. History (~89–100th percentile), whereas GPT-3.5 got a 4 (~74–89th percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the AP World History exam compared to GPT-3.5?",
+    "input": "AP World History 4 (65th - 87th) ... 4 (65th - 87th)",
+    "output": "GPT-4 and GPT-3.5 both scored 4 on AP World History (~65th–87th percentile)."
+  },
+  {
+    "instruction": "What was GPT-4’s Codeforces (competitive coding) rating and how did it compare to GPT-3.5’s rating?",
+    "input": "Codeforces Rating 392 (below 5th) ... 260 (below 5th)",
+    "output": "GPT-4 had a Codeforces rating of 392 (putting it below the 5th percentile, similar to GPT-3.5’s rating of 260, which is also under the 5th percentile)."
+  },
+  {
+    "instruction": "How did GPT-4 perform on sommelier knowledge exams compared to GPT-3.5?",
+    "input": "Introductory Sommelier (theory) 92 % ... 80 % ; Certified Sommelier 86 % ... 58 % ; Advanced Sommelier 77 % ... 46 %",
+    "output": "GPT-4 scored much higher than GPT-3.5 on wine knowledge tests. For instance, on the Certified Sommelier theory exam GPT-4 scored 86% versus GPT-3.5’s 58%, and on the Advanced Sommelier exam GPT-4 got 77% vs GPT-3.5’s 46%."
+  },
+  {
+    "instruction": "How did GPT-4’s LeetCode coding challenge performance compare to GPT-3.5’s?",
+    "input": "Leetcode (easy) 31 / 41 ... 12 / 41 ; Leetcode (medium) 21 / 80 ... 8 / 80 ; Leetcode (hard) 3 / 45 ... 0 / 45",
+    "output": "GPT-4 solved significantly more programming problems than GPT-3.5. For example, on LeetCode Easy GPT-4 solved 31/41 vs GPT-3.5’s 12/41, and on LeetCode Hard GPT-4 solved 3 problems whereas GPT-3.5 solved none."
+  },
+  {
+    "instruction": "According to the passage, how many parameters does GPT-3 have?",
+    "input": "GPT-3, an autoregressive language model with 175 billion parameters, 10× more than any previous non-sparse language model...",
+    "output": "GPT-3 has 175 billion parameters."
+  },
+  {
+    "instruction": "Based on the excerpt, how many parameters are in the GLM-130B model?",
+    "input": "GLM-130B, a bilingual (English and Chinese) pre-trained language model with 130 billion parameters.",
+    "output": "GLM-130B has 130 billion parameters."
+  },
+  {
+    "instruction": "How large is the Gopher model in terms of parameters, as per the passage?",
+    "input": "Gopher 280B",
+    "output": "The Gopher model has 280 billion parameters."
+  },
+  {
+    "instruction": "According to the text, how many parameters does the Chinchilla model have?",
+    "input": "Chinchilla 70B",
+    "output": "Chinchilla is a 70-billion-parameter model."
+  },
+  {
+    "instruction": "The text references \"PaLM 540B\". How many parameters is that model?",
+    "input": "PaLM 540B",
+    "output": "PaLM 540B means the model has 540 billion parameters."
+  },
+  {
+    "instruction": "In the document, \"Megatron-Turing NLG 530B\" is mentioned. How many parameters does that model have?",
+    "input": "Megatron-Turing NLG 530B",
+    "output": "It has 530 billion parameters."
+  },
+  {
+    "instruction": "How large was the training corpus for GPT-3 (in tokens), according to the text?",
+    "input": "All models were trained for a total of 300 billion tokens.",
+    "output": "On the order of 300 billion tokens."
+  },
+  {
+    "instruction": "The passage indicates a dramatic scale-up for LLaMA-3. About how many tokens was LLaMA-3 trained on?",
+    "input": "LLaMA-3 dramatically scaled up to around 15 trillion tokens of training data.",
+    "output": "On the order of 15 trillion tokens."
+  },
+  {
+    "instruction": "How did GPT-4 perform on the Certified Sommelier theory exam compared to GPT-3.5?",
+    "input": "Certified Sommelier (theory knowledge) 86 % ... 58 %",
+    "output": "GPT-4 scored about 86% on the Certified Sommelier test, whereas GPT-3.5 scored around 58%."
+  },
+  {
+    "instruction": "The text states, \"GPT-4 outperforms GPT-3.5 on most exams tested.\" Is this true according to the document?",
+    "input": "GPT-4 outperforms GPT-3.5 on most exams tested.",
+    "output": "Yes. The document indicates that GPT-4 performed better than GPT-3.5 on the majority of exams."
+  },
+  {
+    "instruction": "According to the GPT-4 report, did reinforcement learning from human feedback (RLHF) significantly affect GPT-4’s performance on exams?",
+    "input": "the model’s capabilities on exams appear to stem primarily from the pre-training process and are not significantly affected by RLHF.",
+    "output": "No. The report notes that GPT-4’s exam performance was driven by pre-training and was not significantly changed by the RLHF fine-tuning stage."
+  },
+  {
+    "instruction": "True or False: GPT-4 achieved over 90% on the MMLU benchmark.",
+    "input": "",
+    "output": "False. GPT-4’s accuracy on MMLU was roughly 86%, which is below the 90% mark."
+  },
+  {
+    "instruction": "True or False: The LLaMA models were trained exclusively on publicly available data.",
+    "input": "",
+    "output": "True. The LLaMA paper notes that only public datasets were used for training."
+  },
+  {
+    "instruction": "Which 2020 paper first demonstrated the strong few-shot capabilities of very large language models?",
+    "input": "GPT-3 (Brown et al., 2020) demonstrated that extremely large autoregressive language models (LMs) can be used for few-shot predictions...",
+    "output": "The GPT-3 paper (Brown et al., 2020) was the first to show the powerful few-shot learning ability of large language models."
+  },
+  {
+    "instruction": "List an example of a smaller GPT-3 model size mentioned in the text.",
+    "input": "125M, 350M, 760M, 1.3B, 2.7B, 6.7B, 13.0B, and 200B (GPT-3) parameter language models.",
+    "output": "For example, a 125 million-parameter model is mentioned as a smaller GPT-3 variant."
   }
 
 
